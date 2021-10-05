@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    background: #1b1a1a;
+}
+
+.hero{
+    min-height: 100vh;
+   
+    background-color: #000;
+    background-image: url(https://i.pinimg.com/originals/42/86/96/4286968ba3c6e3f7777b801d26253d2d.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    color: #fff;
+    padding: 0 8%;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    
+    
+}
+.hero h1{
+    font-size: 75px;
+    margin-top: 12%;
+
+}
+.hero button{
+
+    background: #686060e0;
+    
+    padding: 15px 35px;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 28px;
+}
+.hero button:hover{
+    width: 150px;
+    background: #fff;
+    color: black;
+    font-weight: bolder;
+}
+.cta{
+    position: absolute;
+    width: 50%;
+    min-width: 250px;
+    right:8%;
+    bottom: 100px;
+    color: #fff;
+    letter-spacing: 1px;
+}
